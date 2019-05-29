@@ -1,0 +1,138 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <title>Template 1.1</title>
+        <style type="text/css">
+        /* --       Reseting Styles     -- */
+
+        body, #bodyTable, #bodyCell{height: 100% !important; margin: 0; padding: 0; width: 100% !important;}
+        
+        table{border-collapse: collapse;}
+        
+        img{border: 0; outline: none; text-decoration: none;}
+        
+        h1, h2, h3, h4, h5, h6{margin: 0; padding: 0;}
+
+        /* --       Client Specific Styles     -- */
+
+        .ReadMsgBody{width:100%;} .ExternalClass{width:100%;} /* Force Hotmail/Outlook.com to display emails at full width. */
+		
+        .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div{line-height:100%;} /* Force Hotmail/Outlook.com to display line heights normally. */
+		
+        table, td{mso-table-lspace:0pt; mso-table-rspace:0pt;} /* Remove spacing between tables in Outlook 2007 and up. */
+		
+        #outlook a{padding:0;} /* Force Outlook 2007++ to provide a "view in browser" message. */
+		
+        img{-ms-interpolation-mode: bicubic;} /* Force IE to smoothly render resized images. */
+		
+        body, table, td, p, a, li, blockquote{-ms-text-size-adjust:100%; -webkit-text-size-adjust:100%;} /* Prevent Windows- and Webkit-based mobile platforms from changing declared text sizes. */
+
+
+
+        /* --       General Styles      -- */
+        
+        #welcome_title, #emailContainer,  #confirmation_btn, #welcomeMessage, #footer{font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif}
+
+        #emailContainer{line-height:60px}
+        
+        #_confirmation{line-height:40px}
+        
+        #welcome_title{font-weight: 100;}
+        
+        #confirmation_btn{background-color:#3dedb2; padding: 15px; text-decoration: none; color: #fff;}
+        
+        #welcomeMessage{border-top: 1px solid grey; border-bottom: 1px solid grey; padding-bottom: 50px; padding-top: 50px; line-height: 20px;}
+        
+        #footer_link{color: #3dedb2; text-decoration: none; font-size: 14px;}
+        
+        #footer{line-height: 30px;}
+        
+        #footer_cell{padding-top: 40px;}
+
+        /* --       Mobile Styles      -- */
+
+        @media only screen and (max-width: 480px) {
+        
+            td[id="welcomeMessage"], td[id="footer_cell"], td[id="emailContainer"], td[id="_confirmation"]{max-width: 480px; }
+        
+            td[id="welcomeMessage"], td[id="footer_cell"]{padding-left: 10px !important; padding-right: 10px !important; font-size: 12px !important; padding-top: 10px !important;}
+        
+            td[id="_confirmation"]{font-size: 13px !important;}
+
+            /* --      OS Client Specific Mobile Styles      -- */
+            
+            /* --       Forces iOS to render mail at full width      -- */
+            body{width: 100% !important; min-width: 100% !important;}
+           
+        }
+        
+
+        </style>
+    </head>
+
+    <body>
+        <div>
+            <table border="0" cellpadding="0" cellspacing="0" height="100%" width="100%" id="bodyTable">
+                <tr>
+                    <td align="center" valign="top" id="bodyCell">
+                        <!--        Email Begins       -->
+                        <table width="100%" id="emailContainer">
+                            <tr>
+                                <td align="center" valign="top">
+                                    <!--       Welcome Text      -->
+                                    <h1 id="welcome_title" style="font-size: 20px">Welcome to HERE</h1>
+                                </td>
+                            </tr>
+                            </table>
+                            <br>
+                            <table width="100%" id="_confirmation">
+                            <tr>
+                                <td align="center" valign="top">
+                                    
+                                    <a href="" id="confirmation_btn">Confirm Your Email</a>
+                                </td>
+                            </tr>
+                        </table>
+                        
+                        <br>
+                             <!--       Welcome Message      -->
+                        <table>
+                            <tr>
+                                <td align="left" valign="top" width="450px" id="welcomeMessage">
+                                    <p>Hello Ezekiel,</p>
+                                    
+                                    <p>Your new HERE account is all set up and your ready to start creating apps.
+                                        Just to quickly confirm you email address using the button above.
+                                    </p>
+                                    
+                                    <p>Thanks for choosing Us for your Developer needs,</p>
+                                    
+                                    <p>The HERE team</p>
+                                </td>
+                            </tr>
+                        </table>
+                            <!--       Footer     -->
+                        <table id="footer">
+                            <tr>
+                                <td align="center" valign="top" id="footer_svg" width="450px">
+                                    <img src="https://image.flaticon.com/icons/svg/25/25185.svg" alt="" style="height: 30px;">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="center" valign="top" id="footer_cell" width="450px">
+                                    &copy; 2019 &bull; 1551 Peachtree Street NW &bull; Austin, Texas
+                                    <br />
+                                    <br />
+                                    <a href="#" target="_blank" id="footer_link">unsubscribe from list</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#" target="_blank" id="footer_link">view in browser</a>                                        </td>
+                            </tr>
+                        </table>
+
+                    </td>
+                </tr>
+
+            </table>
+        </div>
+    </body>
+</html>
